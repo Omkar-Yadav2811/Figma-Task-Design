@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>BOGO - Pixel Perfect Figma</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="title-wrapper">
+            <div class="title-line"></div>
+            <div class="title">YAY! It’s BOGO</div>
+            <div class="title-line"></div>
+        </div>
+
+        <!-- CARD 1 -->
+        <div class="card" data-card="1">
+            <div class="row">
+                <div class="radio" data-radio="1"></div>
+
+                <div>
+                    <div style="display:flex;align-items:center;">
+                        <div class="unit1">1 Unit</div>
+                        <div class="discount">10% Off</div>
+                    </div>
+                    <div class="sub">Standard Price</div>
+                </div>
+
+                <div class="price-block">
+                    <div class="price-current">$10.00 USD</div>
+                    <div class="price-old">$24.00 USD</div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="labels">
+                    <div>Size</div>
+                    <div>Colour</div>
+                </div>
+
+                <div class="option-row">
+                    <div class="idx">#1</div>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                    <select class="color-select" required>
+                        <option value="" disabled selected>Colour</option>
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+
+                <div class="option-row">
+                    <div class="idx">#2</div>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                    <select class="color-select" required>
+                        <option value="" disabled selected>Colour</option>
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="card" data-card="2">
+            <div class="popular">MOST POPULAR</div>
+
+            <div class="row">
+                <div class="radio" data-radio="2"></div>
+
+                <div class="unit">2 Unit</div>
+                <div class="discount">20% Off</div>
+
+                <div class="price-block">
+                    <div class="price-current">$18.00 USD</div>
+                    <div class="price-old">$24.00 USD</div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="labels">
+                    <div>Size</div>
+                    <div>Colour</div>
+                </div>
+
+                <div class="option-row">
+                    <div class="idx">#1</div>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                    <select class="color-select" required>
+                        <option value="" disabled selected>Colour</option>
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+
+                <div class="option-row">
+                    <div class="idx">#2</div>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                    <select class="color-select" required>
+                        <option value="" disabled selected>Colour</option>
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="card" data-card="3">
+            <div class="row">
+                <div class="radio" data-radio="3"></div>
+
+                <div class="unit">3 Unit</div>
+                <div class="discount">30% Off</div>
+
+                <div class="price-block">
+                    <div class="price-current">$24.00 USD</div>
+                    <div class="price-old">$24.00 USD</div>
+                </div>
+            </div>
+
+            <div class="options">
+                <div class="labels">
+                    <div>Size</div>
+                    <div>Colour</div>
+                </div>
+
+                <div class="option-row">
+                    <div class="idx">#1</div>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                    <select class="color-select" required>
+                        <option value="" disabled selected>Colour</option>
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+
+                <div class="option-row">
+                    <div class="idx">#2</div>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                    </select>
+                    <select class="color-select" required>
+                        <option value="" disabled selected>Colour</option>
+                        <option value="Black">Black</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="free">
+            <div class="left">Free Delivery</div>
+            <div id="total">Total : $18.00 USD</div>
+        </div>
+
+        <button class="cta">
+            <div class="plus">+</div> Add to Cart
+        </button>
+
+        <div class="powered">@ Powered by Pumper</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
